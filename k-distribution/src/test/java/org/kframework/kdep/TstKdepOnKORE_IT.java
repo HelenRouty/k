@@ -44,7 +44,7 @@ public class TstKdepOnKORE_IT {
     /* *
      * kdepEmptyModuleTest runs the regression test for
      * `kdep --no-prelude k-distribution/src/test/resources/compiler-tests/empty-module.k`
-     * The empty-module.k is created with no imports, syntax, rules, and configuration in it.
+     * The empty-module.k is created with no imports and syntax but possibly rules and configurations in it.
      * Before bug2219 is fixed:
      * timestamp : \
      *     /Users/Youshan/Documents/427bugfix/k-distribution/src/test/resources/compiler-tests/empty-module.k \

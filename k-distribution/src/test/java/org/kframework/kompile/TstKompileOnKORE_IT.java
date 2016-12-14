@@ -46,7 +46,7 @@ public class TstKompileOnKORE_IT extends AbstractTest {
      /* *
      * kompileEmptyModuleTest simulates the command for bug#2219
      * `-kompile --no-prelude --debug k-distribution/src/test/resources/compiler-tests/empty-module.k`
-     * The empty-module.k is created with no imports, syntax, rules, and configuration in it.
+     * The empty-module.k is created with no imports and syntax but possibly rules and configurations in it.
      * Before bug2219 is fixed, an NoSuchElementException is thrown in ModuleTransformerException class.
      * After the bug is fixed, there should be no such exceptions.
      */
