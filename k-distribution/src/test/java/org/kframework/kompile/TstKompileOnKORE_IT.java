@@ -54,7 +54,7 @@ public class TstKompileOnKORE_IT extends AbstractTest {
     @Test
     public void kompileEmptyModuleTest() {
         // set --no-prelude option
-        kompileOptions.outerParsing.noPrelude = true;
+        kompileOptions.outerParsing.notAutoImportDomain = true;
 
         // kompile definition
         kompile = new Kompile(kompileOptions, files, kem, false);

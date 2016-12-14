@@ -75,7 +75,7 @@ public class TstKdepOnKORE_IT {
     @Test
     public void kdepEmptyModuleTest() {
         // set --no-prelude option
-        kDepOptions.outerParsing.noPrelude = true;
+        kDepOptions.outerParsing.notAutoImportDomain = true;
         kem = new KExceptionManager(kDepOptions.global);
         sw = new Stopwatch(kDepOptions.global);
         String[] args = new String[]{"empty-module.k", definitionDir.toString()};
